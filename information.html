@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Information about us, our accessibility and offers on site, our museum is yours to explore.">
+        <title>Information | Community Science Museum</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/information.css">
+        <script src="https://kit.fontawesome.com/409a57b09b.js" crossorigin="anonymous"></script>
+        <!-- Hotjar Tracking Code for https://admiring-lewin-cca505.netlify.app/ -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:2382521,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav__container">
+                <div class="nav__logo-container">
+                    <a href="index.html">
+                        <img class="nav__logo-img" src="images/logo.png" alt="Logo for Community Science Museum">
+                    </a>
+                </div>
+                <a href="information.html" aria-label="Information page"><i class="fas fa-info-circle"></i></a>
+                <div>
+                    <label for="hamburgermenu" tabindex="0" aria-label="Hamburger Menu button"><i class="fas fa-bars"></i></label>
+                    <input type="checkbox" id="hamburgermenu" name="hamburgermenu">
+                    <div class="nav__dropdown-menu">
+                        <a href="index.html">Main page</a>
+                        <a href="cosmology.html">Cosmology</a>
+                        <a href="youngstars.html">Young Stars</a>
+                        <a href="information.html" class="nav__active">Information page</a>
+                        <a href="about.html">About Us</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>                
+                <div class="main__toppicture"></div>
+            </section>
+            <section class="main__boxes-container">
+                <div class="main__visit-us--styling">
+                    <h1>Visit Us</h1>
+                    <h2>Museumsvegen 1</h2>
+                    <h3>2414 Elverum</h3>
+                </div>
+                <div class="footer__openhours-text">
+                    <div>
+                        <h3>Opening Hours</h3>
+                    </div>
+                    <div>
+                        <p>Monday</p>
+                        <p>Closed</p>
+                    </div>
+                    <div>
+                        <p>Tuesday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Wednesday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Thursday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Friday</p>
+                        <p>10:00 - 19:00</p>
+                    </div>
+                    <div>
+                        <p>Saturday</p>
+                        <p>09:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Sunday</p>
+                        <p>09:00 - 13:00</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Admission</h3>
+                    <p>The entrance is free for all.</p>
+                    <p>There are guided tours of the museum that
+                        leave every hour.
+                    </p>
+                    <p>These tours are 70 NOK per person
+                       and include a handy printed guide of the museum. 
+                       If you would like to organise a guided tour for Your
+                       group of 6 or more people, please contact us to 
+                       arrange the tour.
+                    </p>
+                </div>
+                <div>
+                    <h3>Accessibility</h3>
+                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
+                </div>
+                <div>
+                    <h3>Food and drink</h3>
+                    <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+                </div>
+                <div>
+                    <h3>Shop</h3>
+                    <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+                </div>
+                <form action="form-sendt.php" method="POST" class="form-container" id="form-contact">
+                    <h3>Contact Us</h3>
+                    <label for="firstname">Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                    <label for="phone">Number</label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="form__checkbox">
+                        <label for="infoletter">Signup for infoletter</label>
+                        <input type="checkbox" id="infoletter" name="inforletter">
+                    </div>
+                    <textarea name="textarea" id="textarea" maxlength="200" cols="30" rows="10" placeholder="Type here..." aria-label="Text area, enter your question"></textarea>
+                    <a href="index.html" class="form__sendbutton">Send</a>
+                </form>
+                <div class="main__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.711911816041!2d11.57204348502114!3d60.88360045098753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27db360173032d6!2sChristiansfjell%20Fortress!5e0!3m2!1sen!2sno!4v1613760487502!5m2!1sen!2sno" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0" title="Google Maps"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="footer__container">
+                <div class="footer__divspaces--margin footer__contact">
+                    <h3>CONTACT US</h3>
+                    <a href="https://goo.gl/maps/277cBVbZtof7erjJA"><i class="fas fa-map-marker-alt"></i> Museumsvegen 1, Elverum</a>
+                    <a href="tel:+4762414415"><i class="fas fa-phone-square-alt"></i> +47 624 14415</a>
+                    <a href="information.html#form-contact"><i class="far fa-comment-alt"></i> Message us</a>
+                </div>
+                <div class="socialmedia footer__divspaces--margin">
+                    <h3>FOLLOW US</h3>
+                    <div>
+                        <label>
+                            <a href="https://www.facebook.com/groups/716522351730441" aria-label="Link to Facebook page">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </label>
+                        <label>
+                            <a href="https://www.instagram.com/elverum_frisbeeklubb/" aria-label="Link to Instagram page">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </label>
+                    </div>
+                </div>
+                <div class="footer__divspaces--margin">
+                    <h3>PRICE</h3>
+                    <p>Free enterance</p>
+                </div>
+                <div class="footer__openhours-text footer__divspaces--margin">
+                    <div>
+                        <h3>OPENING HOURS</h3>
+                    </div>
+                    <div>
+                        <p>Monday</p>
+                        <p>Closed</p>
+                    </div>
+                    <div>
+                        <p>Tuesday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Wednesday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Thursday</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Friday</p>
+                        <p>10:00 - 19:00</p>
+                    </div>
+                    <div>
+                        <p>Saturday</p>
+                        <p>09:00 - 16:00</p>
+                    </div>
+                    <div>
+                        <p>Sunday</p>
+                        <p>09:00 - 13:00</p>
+                    </div>
+                </div>
+            </section>
+            <div class="copyright">&copy; Community Science Museum 2021</div>
+        </footer>       
+    </body>
+</html>
