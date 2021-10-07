@@ -1,4 +1,4 @@
-/* Main */
+Main
 
 main {
   max-width: 1000px;
@@ -10,14 +10,17 @@ main {
   background: url("/images/small-museumtext.jpg");
   background-size: 100% 100%;
   height: 400px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: 1200px;
 }
 
 .main__boxes-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .main__visit-us--styling {
@@ -48,18 +51,43 @@ main div,
   color: var(--blue);
 }
 
-.form__sendbutton {
+.form__send-button {
   margin-top: 10px;
   padding: 5px;
   background: var(--blue);
   font-size: 20px;
   text-decoration: none;
   text-align: center;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.form__send-button:disabled {
+  opacity: 0.5;
+  color: white;
+  background-color: red;
 }
 
 #textarea {
   resize: none;
 }
+
+
+
+/* Contact form messages */
+
+.fullname__error-message, .phone__error-message, .email__error-message, .textarea__error-message {
+  display: none;
+  color: var(--red);
+}
+
+.message-sendt {
+  display: none;
+  text-align: center;
+  background-color: var(--green);
+  margin: 0;
+}
+
 
 @media only screen and (max-width: 700px) {
   .main__boxes-container {

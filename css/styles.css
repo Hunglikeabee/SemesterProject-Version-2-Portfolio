@@ -14,6 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background: var(--black);
+  font-family: var(--font2);
 }
 
 h1 {
@@ -72,7 +73,7 @@ header {
 }
 
 .nav__logo-container {
-  flex: 4;
+  flex: 3;
 }
 
 .nav__container a,
@@ -85,6 +86,25 @@ label {
   height: 50px;
   width: 125px;
 }
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: var(--blue);
+}
+
 
 #hamburgermenu {
   display: none;
@@ -119,6 +139,10 @@ label {
   text-align: center;
   color: var(--black);
   width: 100%;
+}
+
+.hamburger__container {
+  display: none;
 }
 
 #hamburgermenu:checked ~ .nav__dropdown-menu {
@@ -211,6 +235,16 @@ footer h3 {
   .events__event2,
   .events__event3 {
     padding: 30px 10px 30px 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hamburger__container {
+    display: block;
+  }
+
+  ul {
+    display: none;
   }
 }
 
