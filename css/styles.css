@@ -124,21 +124,20 @@ li a:hover {
   }
 }
 
+.nav__dropdown-menu a {
+  text-decoration: none;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+
 .nav__active {
-  background-color: var(--green);
+  color: var(--blue)
 }
 
 .nav__dropdown-menu a:hover {
   color: var(--blue);
   background-color: var(--gray);
-}
-
-.nav__dropdown-menu a {
-  text-decoration: none;
-  padding: 10px 0px;
-  text-align: center;
-  color: var(--black);
-  width: 100%;
 }
 
 .hamburger__container {
